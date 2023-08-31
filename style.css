@@ -147,3 +147,8 @@ input:focus {
     outline: none;
     border-color: #2358ad;
 }
+
+.error {
+    color: red;
+    height: 10px;
+}
