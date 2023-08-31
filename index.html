@@ -8,8 +8,51 @@
     </head>
     <body>
         <div id="main-container">
-            <div class="main-left"></div>
-            <div class="main-rigth"></div>
+            <div class="main-left">
+                <div>
+                    <img src="images/odin-lined.png" alt="odin-logo" class="odin-logo" />
+                    <h1>ODIN</h1>
+                </div>
+            </div>
+            <div class="main-right">
+                <section class="intro-section">
+                    <p class="text-section">
+                        This is not a real online service! You know you need something like this in your life to help
+                        you realize your deeper dreams.<br />Sign up <span>now</span> to get started.<br /><br />You
+                        <span>know</span> you want to.
+                    </p>
+                </section>
+                <section class="form-section">
+                    <p>Let's do this!</p>
+                    <form id="user-form" method="post">
+                        <div class="form-rows">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" />
+
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" />
+                        </div>
+                        <div class="form-rows">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" />
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number" />
+                        </div>
+                        <div class="form-rows">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" />
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" />
+                        </div>
+                    </form>
+                </section>
+                <section>
+                    <button type="submit" id="user-form">Create Account</button>
+                    <p>
+                        Already have an account? <span><a>Log In</a></span>
+                    </p>
+                </section>
+            </div>
         </div>
     </body>
 </html>

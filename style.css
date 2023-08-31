@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/norse");
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -36,8 +38,60 @@ ul {
 }
 
 .main-left {
-    background-image: url("bg-img.jpg");
+    background-image: url("images/bg-img.jpg");
     background-position: center;
     background-size: cover;
     width: 33%;
+}
+
+.main-left > div {
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.odin-logo {
+    max-height: 8rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    font-family: "Norse", sans-serif;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-section {
+    max-width: 900px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+.text-section {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-section {
+    border: 1px solid black;
+    width: 100%;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input {
+    display: block;
 }
