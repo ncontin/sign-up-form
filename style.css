@@ -88,17 +88,19 @@ h1 {
 
 form {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+
     max-width: 600px;
-    gap: 40px;
 }
 
 label {
     margin-top: 20px;
 }
 
-.form-left,
-.form-right {
+.form-rows {
+    display: flex;
+}
+.form-fields {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -141,6 +143,7 @@ input {
     border: 1px solid #e5e7eb;
     border-radius: 5px;
     padding: 7px;
+    width: 80%;
 }
 
 input:focus {
